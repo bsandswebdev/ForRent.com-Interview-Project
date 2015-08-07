@@ -1,0 +1,20 @@
+{
+  "name": "forent.com_jr_web_developer_project",
+  "version": "1.0.0",
+  "description": "ForRent.com Jr. Web Developer Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ForRent.com, coded by Brian Sands",
+  "license": "AFL-1.1",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-less": "^3.0.3",
+    "gulp-less-sourcemap": "^1.4.2",
+    "gulp-minify-css": "^1.2.0",
+    "sourcemap": "^0.1.0"
+  }
+}

@@ -1,0 +1,66 @@
+/* LAYOUT
+   ------------------------------------------- */
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.main-container{
+	margin-top: 5.95703125%; //61px (61/1024 *100)
+	margin-bottom: 8.69140625%; //89px (89/1024 *100)
+}
+.container-fluid{
+	max-width: 87.11%; //892px (892px/1024px * 100 = 87.109275)
+	margin: 0 auto;
+	position: relative;
+}
+.row{
+	margin-bottom: 1.1210762%; //10px ((10/892) * 100 = 1.1210762)
+}
+#row2, #row5 {
+	display: flex;
+}
+
+#row5{
+	margin-bottom: 0;
+}
+.gold-box, .maroon-box{
+	right: .448430493274%; //-4px (4/892 *100)
+}
+.black-box{
+	right: .112107623318%; //1px
+}
+.blue-box, .gold-box{
+	z-index: 2;
+}
+
+/****** Orange and Gold Boxes Hidden Corners ******/
+.orange-box, .gold-box{
+	.tl-corner, .tr-corner, .bl-corner, .br-corner{
+		background-color: @hidden-corner;
+		display: inline-block;
+		padding: .113%; //1px
+		position: absolute;
+	}
+	.tl-corner{
+		top: 0;
+	}
+	.tr-corner{
+		top: 0;
+		right: 0;
+	}
+	.bl-corner{
+		bottom: 0;
+	}
+	.br-corner{
+		bottom: 0;
+		right: 0;
+	}
+
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+

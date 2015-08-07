@@ -1,0 +1,108 @@
+/* MAIN
+   ------------------------------------------- */
+/****** OVERLAY ******/
+.dim{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 3;
+    animation: fadein 1s;
+    @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+	}
+	@media(min-width: 1025px){
+		height: 200%;
+	}
+}
+.disappear{
+	display: none;
+}
+
+.overlay-wrap {
+	font-size: 1.376vw; //(.001vw = 1px; 14px desired font size; 1400px - 1024px = 376px; 376 *.001= .376 )
+	background-color: #fff;
+	max-width: 57.399103139013%; 
+	margin: 0 auto;
+	z-index: 4;
+	position: absolute;
+	top: 17.124394184168%;//106px 
+	right:-100%; 
+    animation: slide 2s forwards;
+    animation-delay: 3s;
+    //overflow: hidden;
+	@keyframes slide {
+	    100% { right: 19.394618834081%;}//173px from container
+	}
+	.overlay{
+		padding: 4.296875% 3.90625% 4.4921875%; //22px 20px 23px; adjusted a little to make 300px total H; 
+	}
+
+}
+
+/****** BOXES ******/
+.orange-box, .gold-box{
+	padding: 5.493273542601% 0; //49px
+	border: 0.071em solid #333333; //1px
+	position: relative;
+}
+.orange-box{
+	.orange-box-gradient;
+}
+.gold-box{
+	padding: 5.605381165919% 0; //50px 
+}
+
+.red-box,.black-box{
+	padding: 7.0067264% 7.0067264%; //62.5px (125/892 *100/2)
+	//flex-grow: 1;
+}
+.red-box{
+	background-color: @red;
+}
+.black-box{
+	background-color: @black;
+	position: relative;
+}
+.blue-box{
+	background-color: @light-blue;
+	margin: .896860986547% 1.345291479821% 0 1.121076233184%; //8px 12px 0 10px;
+	padding: 6.558295964126% 34.699%; //619px x 117px total WxH
+	//flex-grow: 5;
+}
+.green-box{
+	background-color: @green;
+	margin-left: 3.811659192825%; //34px   
+	margin-right: 4.260089686099%; //38px 
+	padding: 7.0067264% 0; //62.5px 
+}
+.gold-box{
+	background-color: @gold;
+	position: relative;
+}
+
+.grey-box{
+	background-color: @grey;
+	padding: 7.0067264% 9.8094170403585%; //125px 175px total HxW
+	position: relative;
+	left: 9.050279329609%; //81px (85px - 4px right on maroon-box = (81/895 *100)
+}
+.maroon-box{
+	background-color: @maroon;
+	margin-left: auto;
+	padding: 7.0067264% 27.07399103139%; //483px 125px total HxW
+	position: relative;
+	right: 0;
+}
+.purple-box{
+	.purple-box-gradient;
+	padding: 22.141255605381% 7.0067264%; //395px 125px total HxW
+	position: absolute;
+	top: 17.932148626817%; // 111px ((111px / 619px container height) * 100)
+	left: 30.269058295964%; //270px (270px / 892 *100)
+
+}
+
