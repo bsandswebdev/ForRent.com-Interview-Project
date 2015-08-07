@@ -1,4 +1,4 @@
-require(['assignClasses', 'dim', 'disappear'], function (assignClasses, dim, disappear) {
+require(['dim', 'disappear'], function (dim, disappear) {
 });
 
 
