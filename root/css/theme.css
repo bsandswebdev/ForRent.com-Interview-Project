@@ -211,7 +211,7 @@ p {
 .gold-box .br-corner {
   background-color: #878787;
   display: inline-block;
-  padding: 1px;
+  padding: .09765625%;
   position: absolute;
 }
 .orange-box .tl-corner,
