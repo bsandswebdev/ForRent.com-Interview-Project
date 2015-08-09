@@ -201,36 +201,30 @@ p {
   z-index: 2;
 }
 /****** Orange and Gold Boxes Hidden Corners ******/
-.orange-box .tl-corner,
-.gold-box .tl-corner,
-.orange-box .tr-corner,
-.gold-box .tr-corner,
-.orange-box .bl-corner,
-.gold-box .bl-corner,
-.orange-box .br-corner,
-.gold-box .br-corner {
+.tl-corner,
+.tr-corner,
+.bl-corner,
+.br-corner {
   background-color: #878787;
   display: inline-block;
-  padding: .09765625%;
+  padding: .5px;
   position: absolute;
 }
-.orange-box .tl-corner,
-.gold-box .tl-corner {
-  top: 0;
+.tl-corner,
+.tr-corner {
+  top: -1px;
 }
-.orange-box .tr-corner,
-.gold-box .tr-corner {
-  top: 0;
-  right: 0;
+.tr-corner,
+.br-corner {
+  right: -1px;
 }
-.orange-box .bl-corner,
-.gold-box .bl-corner {
-  bottom: 0;
+.bl-corner,
+.br-corner {
+  bottom: -1px;
 }
-.orange-box .br-corner,
-.gold-box .br-corner {
-  bottom: 0;
-  right: 0;
+.tl-corner,
+.bl-corner {
+  left: -1px;
 }
 *,
 *:before,

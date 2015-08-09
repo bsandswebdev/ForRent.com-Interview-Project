@@ -34,29 +34,17 @@
 }
 
 /****** Orange and Gold Boxes Hidden Corners ******/
-.orange-box, .gold-box{
-	.tl-corner, .tr-corner, .bl-corner, .br-corner{
-		background-color: @hidden-corner;
-		display: inline-block;
-		padding: .09765625%; //1px 
-		position: absolute;
-	}
-	.tl-corner{
-		top: 0;
-	}
-	.tr-corner{
-		top: 0;
-		right: 0;
-	}
-	.bl-corner{
-		bottom: 0;
-	}
-	.br-corner{
-		bottom: 0;
-		right: 0;
-	}
-
+.tl-corner, .tr-corner, .bl-corner, .br-corner{
+	background-color: @hidden-corner;
+	display: inline-block;
+	padding: .5px; //1px 
+	position: absolute;
 }
+.tl-corner, .tr-corner{top: -1px;}
+.tr-corner, .br-corner{right: -1px;}
+.bl-corner, .br-corner{bottom: -1px;}
+.tl-corner, .bl-corner{left: -1px;}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
