@@ -27,4 +27,8 @@ Tasked to complete this project as part of a Jr. Web Developer position intervie
 	<li>I know gulp.js very similar to grunt.js and that it can do all the same tasks as grunt. I feel confident I can work with grunt.js just as easily as with gulp.js as they are both cmd line based and do the same sort of tasks. I plan on making a grunt.js file this weekend that does all the same tasks that I utilized in gulp.js and will add it to this repository! </li>
 	<li>This was my first time using github, and I know there is also integration with github and grunt.js/gulp.js which I plan on digging into as well.</li>
 	<li>I am eager to learn more and kudos to whoever thought up this project!</li> 
+	<li>See links below to updated Grunt and Gulp files. I also modified the gulp.js file currently in this repository to save to a new file (theme.min.css) when minifying instead of overwriting the theme.css file.</li>
 </ul>
+<h3>Updated Grunt.js and Gulp.js Files</h3>
+<p><a href="https://github.com/bsandswebdev/Grunt">Link to Grunt.js file</a><br />
+<a href="https://github.com/bsandswebdev/Gulp">Link to Gulp.js file</a></p>
