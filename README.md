@@ -23,7 +23,7 @@ Tasked to complete this project as part of a Jr. Web Developer position intervie
 <ul>
 	<li>&#42;&#42;This was all mocked up and coded based on "Example-1.psd"&#42;&#42;</li>
 	<li>This was a really interesting and different project!, and I really enjoyed working on this! It was a great exercise to work through.</li>
-	<li>The project instructions said to use Grunt. I had started using Gulp a few weeks prior to tstarting this, so I used that to quickly get going on this project. After the project was due I also made a grunt.js the performed the same tasks I used in gulp.
+	<li>The project instructions said to use Grunt. I had started using Gulp, a similar task runner, a few weeks prior to starting this so I used that to quickly get going on this project. After project completion I also made a Grunt.js file that performed the same tasks I used in Gulp.
 	<li>See links below to updated Grunt and Gulp files. 
 </ul>
 <h3>Updated Grunt.js and Gulp.js Files</h3>
